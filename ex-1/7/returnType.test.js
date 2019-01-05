@@ -17,5 +17,5 @@ test('Return type object', () => {
 });
 
 test('Return type of array', () => {
-  expect(returnType({})).toBe('object');
+  expect(returnType([])).toBe('object');
 });
